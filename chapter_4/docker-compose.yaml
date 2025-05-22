@@ -20,7 +20,6 @@ services:
     container_name: postgres-db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: todoapp
     ports:
       - "5433:5432"
